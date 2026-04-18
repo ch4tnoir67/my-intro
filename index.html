@@ -5,56 +5,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>伊織 - 自己紹介</title>
     <meta name="description" content="千葉工業大学の学生、伊織の自己紹介ページです。AIへの関心や向き合い方について。">
+    <!-- Google Fonts: Shippori Mincho for retro-modern Japanese typography -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Navigation / Header -->
-    <header class="header highlight-bar">
-        <div class="container header-content">
-            <h1 class="logo">伊織<span>Iori</span></h1>
-        </div>
+    <!-- Grainy Noise Overlay for Retro Feel -->
+    <div class="noise-overlay"></div>
+
+    <header class="header reveal-on-scroll fade-down">
+        <h1 class="logo">伊織<span class="logo-en">Iori</span></h1>
     </header>
 
-    <!-- Hero Section -->
-    <section class="hero js-scroll fade-in-bottom">
-        <div class="container hero-inner">
-            <div class="hero-text">
-                <h2 class="title-vertical">喫茶と、<br>思考と、<br>人工知能。</h2>
-            </div>
-        </div>
-    </section>
-
-    <!-- Main Content -->
     <main>
-        <!-- Intro -->
-        <section class="section about js-scroll fade-in-bottom">
-            <div class="container">
-                <div class="content-box">
-                    <div class="section-title-wrap">
-                        <h2 class="section-title">其の一、自己紹介</h2>
-                    </div>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content reveal-on-scroll fade-up">
+                <p class="hero-subtitle">A brief introduction</p>
+                <h2 class="hero-title">模索と、<br>思考と、<br>人工知能。</h2>
+            </div>
+            <div class="scroll-indicator">
+                <span class="scroll-text">Scroll</span>
+                <span class="scroll-line"></span>
+            </div>
+        </section>
+
+        <!-- Section 1: Intro -->
+        <section class="section intro-section">
+            <div class="container glass-panel reveal-on-scroll fade-up">
+                <h3 class="section-heading"><span class="kanji-num">壱</span>自己紹介</h3>
+                <div class="text-content">
                     <p class="text">
                         はじめまして、私は<strong>伊織（いおり）</strong>という名前です。<br>
-                        千葉工業大学に通う学生です。<br><br>
-                        「伊織」という名前の由来は、名探偵コナンに登場する公安警察の「伊織 無我」から取っています。<br>
-                        彼の冷静でありながら信念を持つ姿に惹かれ名付けました。
+                        千葉工業大学に通う学生です。
+                    </p>
+                    <p class="text mt-lg">
+                        「伊織」という名前の由来は、名探偵コナンに登場する公安警察の<br>
+                        「伊織 無我」から取っています。<br>
+                        彼の持つ冷静な視点と確固たる信念に惹かれ、自身の名として名乗っています。
                     </p>
                 </div>
             </div>
         </section>
 
-        <!-- AI towa -->
-        <section class="section purpose dark-bg js-scroll fade-in-bottom">
-            <div class="container">
-                <div class="content-box outline-box">
-                    <div class="section-title-wrap center-aligned">
-                        <h2 class="section-title text-light">其の二、私にとってのAI</h2>
-                    </div>
+        <!-- Section 2: AI to wa -->
+        <section class="section ai-meaning alt-bg">
+            <div class="container reveal-on-scroll slide-right">
+                <h3 class="section-heading text-light"><span class="kanji-num">弐</span>私にとってのAI</h3>
+                <div class="card dark-card">
                     <p class="text text-light text-center">
-                        物事を深く理解したり、未知の世界を調べたりするのに役立つ大いなる道具。<br>
+                        物事を深く理解したり、未知の世界を調べたりするのに役立つ強大な道具。<br>
                         私にとってAIとは、今この瞬間はもちろんのこと、<br>
                         今後先の未来においても<strong>必要不可欠になる存在</strong>です。
                     </p>
@@ -62,47 +64,51 @@
             </div>
         </section>
 
-        <!-- AI to dou mukiau ka -->
-        <section class="section mindset js-scroll fade-in-bottom">
-            <div class="container split-layout">
-                <div class="split-image placeholder-matcha">
-                    <div class="image-text">模索</div>
-                </div>
-                <div class="split-text">
-                    <div class="section-title-wrap">
-                        <h2 class="section-title">其の三、AIとどう向き合うか</h2>
+        <!-- Section 3: How to face AI -->
+        <section class="section interact-ai">
+            <div class="flex-container">
+                <div class="flex-text reveal-on-scroll slide-left">
+                    <h3 class="section-heading"><span class="kanji-num">参</span>AIとの向き合い方</h3>
+                    <div class="text-content">
+                        <p class="text">
+                            AIを真に「使いこなせる」ようになること。<br><br>
+                            1つの目的を達成しようとする時、ただ一つの答えや決まった方法に頼り切るのではなく、<strong>様々なアプローチやプロンプトを用いてアクセス</strong>を試みたいと考えています。
+                        </p>
+                        <p class="text mt-lg">
+                            そうすることで、AIからより良い回答、最適化された答えを引き出せるように、常に模索し続ける姿勢を大切にしたいです。
+                        </p>
                     </div>
-                    <p class="text">
-                        AIを真に「使いこなせる」ようになること。<br><br>
-                        1つの目的を果たそうとする時、ただ一つの答えや方法に頼り切るのではなく、様々な方法やプロンプトを持ってアプローチを試みたいと考えています。<br><br>
-                        そうすることで、AIからより良い、最適化された回答を引き出せるように模索し続ける姿勢を大切にしたいです。
-                    </p>
+                </div>
+                <div class="flex-visual reveal-on-scroll zoom-in">
+                    <div class="circle-art">
+                        <div class="circle-inner"></div>
+                        <span class="vertical-text">模索</span>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <!-- Nani wo tsukuritai ka -->
-        <section class="section future js-scroll fade-in-bottom">
-            <div class="container">
-                <div class="content-box center-aligned">
-                    <div class="section-title-wrap center-aligned">
-                        <h2 class="section-title">其の四、これから模索したいこと</h2>
-                    </div>
-                    <p class="text text-center">
-                        今現在、AIを使わずとも自分の力で行えている事柄は多くあります。<br>
-                        しかし、それには膨大な時間がかかりすぎてしまうのも事実です。<br><br>
-                        その<strong>「時間がかかりすぎてしまうもの」</strong>に対して、AIを積極的に利用することを考えています。<br>
-                        AIの力を適切に借りることで、より速いスピードで完成させ、さらなる表現や可能性を模索できるようなワークフローを作っていきたいです。
+        <!-- Section 4: What to create -->
+        <section class="section future-explore alt-bg-2">
+            <div class="container glass-panel dark-glass reveal-on-scroll fade-up">
+                <h3 class="section-heading text-light"><span class="kanji-num">肆</span>これから創りたいこと</h3>
+                <div class="text-content">
+                    <p class="text text-light text-center">
+                        今現在、AIを使わずとも自分自身の力だけで行えている事柄は多々あります。<br>
+                        しかし、それには<strong>膨大な時間がかかりすぎてしまう</strong>のも事実です。
+                    </p>
+                    <p class="text text-light text-center mt-lg">
+                        その「時間がかかりすぎてしまう領域」に対してAIを積極的に活用し、<br>
+                        より速いスピードで制作したり、新たな可能性を模索できるような<br>
+                        理想のワークフローを作り上げたいと考えています。
                     </p>
                 </div>
             </div>
         </section>
     </main>
 
-    <footer class="footer">
-        <div class="container">
-            <p class="footer-text">© 2026 Iori - Chiba Institute of Technology</p>
-        </div>
+    <footer class="footer reveal-on-scroll fade-up">
+        <p>© 2026 Iori - Chiba Institute of Technology</p>
     </footer>
 
     <script src="script.js"></script>
